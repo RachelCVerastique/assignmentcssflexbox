@@ -1,0 +1,154 @@
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+body{
+
+}
+
+/*Available Pets Styling------------------------------------*/
+.container-flex2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 75%;
+    align-items: center;
+    margin: auto ;
+}
+
+.avaPets{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#avaCats{
+    margin-bottom: 15px;
+    font-family: "Little Paws";
+    font-size: 60px;
+}
+
+#avaDogs{
+    margin-bottom: 15px;
+    font-family: "Little Paws";
+    font-size: 60px;
+    margin-top: 75px;
+}
+
+/*.container-flex{*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-content: center;*/
+/*}*/
+
+
+.card-img-top{
+    width: 286px;
+    height: 191px;
+}
+
+.adoptableFurbies{
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Paw Wow Block";
+    font-size: 100px;
+}
+
+.card{
+    margin-top: 25px;
+}
+
+.buttons{
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    font-family: "Little Paws";
+    margin-top: 25px;
+}
+
+#buttDiv-flex{
+    display: flex;
+    justify-content: center;
+}
+
+#button2{
+    margin-right: 10px;
+}
+
+/*index html styling -------------------------------------------------*/
+
+nav{
+    font-family: "Little Paws";
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+#purposeHeader{
+    font-family: "Paw Wow Block";
+    font-size: 75px;
+    text-align: center;
+    margin-top: 75px;
+}
+
+#purposeText{
+  font-family: "ELEGANT TYPEWRITER";
+}
+
+#purposeDiV{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /*text-align: center;*/
+    margin: auto;
+    /*align-items: center;*/
+}
+
+#bnwDogSign{
+    margin-bottom: 50px;
+}
+
+/*contact us styling -------------------------------*/
+
+#messageFormDiv{
+    box-sizing: border-box;
+    border: 5px solid black;
+    width: 400px;
+    border-radius: 50px;
+    margin-top: 100px;
+}
+
+#contactForm{
+    margin: 25px 25px 25px 25px;
+
+}
+
+.labels{
+    font-family: "ELEGANT TYPEWRITER";
+}
+
+.formContainer{
+    display: flex;
+    justify-content: center;
+}
+
+#messageFormDiv2{
+    box-sizing: border-box;
+    border: 5px solid black;
+    width: 500px;
+    height: 850px;
+    border-radius: 50px;
+    margin-top: 100px;
+}
+
+#adoptForm{
+    margin: 25px 25px 25px 25px;
+}
